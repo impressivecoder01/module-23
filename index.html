@@ -12,17 +12,25 @@
       <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="flex justify-between items-center  max-w-[1650px] mx-auto">
+    <header class="flex flex-col justify-between items-center  max-w-[1650px] mx-4 md:mx-auto md:flex-row ">
         <!-- header text section -->
          <section class="header-text-section">
-            <h1 class="manrope-font font-extrabold text-[80px]">It's good <br>
+            <h1 class="manrope-font font-extrabold text-5xl md:text-[80px]">It's good <br>
             tea time at The <br> Tea House</h1>
-            <h6 class="font-medium text-[18px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</h6>
-            <button class="manrope-font ">Explore More</button>
+            <h6 class="font-medium text-xs md:text-[18px] my-7">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</h6>
+            <button class="manrope-font bg-red-100 px-5 py-4 rounded-xl">Explore More</button>
          </section>
          <!-- header image section -->
           <section class="header-image-section">
-            <img src="images/banner.png" alt="error">
+            <img src="images/banner.png" class="relative top-28" alt="error">
+            <!-- card div -->
+            <div class="card-div flex items-center gap-3 shadow-lg w-64 h-24 rounded-md pl-3">
+              <i class="fa-solid fa-star"></i>
+              <div class="text ">
+                <h1 class="font-extrabold text-3xl manrope-font">5.00</h1>
+                <h6 class="manrope-font font-semibold text-[16px]">Trust pilot Ratings</h6>
+              </div>
+            </div>
           </section>
     </header>
 </body>
